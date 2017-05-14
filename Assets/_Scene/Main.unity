@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 188032989}
   - component: {fileID: 188032988}
   - component: {fileID: 188032990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Boundary
   m_TagString: Boundary
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 1164663301}
   - component: {fileID: 1164663303}
   - component: {fileID: 1164663302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -995,7 +995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271755726}
   - component: {fileID: 1271755727}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fill light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295324344}
   - component: {fileID: 1295324345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rim light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1717,6 +1717,18 @@ Prefab:
       propertyPath: InitialModule.startRotationY.minCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9930946b7c5f48e44aef1e56c2de7315, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9930946b7c5f48e44aef1e56c2de7315, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9930946b7c5f48e44aef1e56c2de7315, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9930946b7c5f48e44aef1e56c2de7315, type: 2}
   m_IsPrefabParent: 0
@@ -1729,7 +1741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648308099}
   - component: {fileID: 1648308100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1805,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1990917017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1827,7 +1839,7 @@ GameObject:
   - component: {fileID: 2133511738}
   - component: {fileID: 2133511737}
   - component: {fileID: 2133511740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
